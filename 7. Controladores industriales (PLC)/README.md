@@ -1,0 +1,2 @@
+# Controladores industriales (PLC):
+* Explicar cómo se desglosó el problema de control secuencial estableciendo operación, etapas, transiciones y modos, realizando una apropiada implementación en lógica programada (Grafcet y Ladder).

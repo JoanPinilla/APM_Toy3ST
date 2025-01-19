@@ -1,0 +1,2 @@
+# Planeación del Proyecto:
+* Cronograma del proyecto realizado en alguna herramientas de software como son: CRM Bitrix24, Microsoft Project o alguna herramienta de planeación de proyectos. Importante tener en cuenta que si hay cambios, estos deben actualizarse en su cronograma
