@@ -1,0 +1,67 @@
+/* Make Roboto the default font for all text */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style the navigation bar with id "NAVBAR" */
+#NAVBAR {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Vertically center items */
+    list-style-type: none; /* Remove bullet points for list items */
+    margin: 0; /* Remove default margins */
+    padding: 0 20px; /* Add horizontal padding */
+    background-color: #f8f9fa; /* Light background color */
+    height: 60px; /* Set a fixed height for the navbar */
+    width: 50%; /* Restrict the navbar to the right half */
+    margin-left: auto; /* Align the navbar to the right half of the screen */
+}
+
+#NAVBAR li {
+    flex-grow: 1; /* Ensure all items take up equal space */
+    text-align: center; /* Center text within each item */
+}
+
+#NAVBAR a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make links bold */
+}
+
+#NAVBAR a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Make all h1 elements bold */
+h2 {
+    font-weight: bold;
+    font-family: 'Chocolate Classical Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /* Ensure items stack first */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    background-color: #f1f1f1; /* Light background color */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center-align text */
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    gap: 20px; /* Add spacing between list items */
+}
+
+footer li {
+    white-space: nowrap; /* Prevent text wrapping */
+}
