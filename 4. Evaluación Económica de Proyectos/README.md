@@ -47,4 +47,6 @@ La inversión comprende lo siguiente:
 | Instalación y puesta en marcha  | $16,000                | $27,000                |                                 |                                 |
 | **Total estimado**              | **$206,984**           | **$328,070**           |                                 |                                 |
 
-Con esta inversión, se estima que la plata puede pasar de producir 19 000 unidades al mes a producir 44 500 unidades. Se aumentan los costos de consumo de energía y de mantenimiento al tener más máquinas en la planta, por lo que se estima un aumento en el costo de producción por unidad a 3.00 USD. Esto representaría ventas mensuales de 89 000 USD, es decir, 1'068 000 USD en ventas anuales, representando un 0.16% del mercado para el año 2025. 
+Con esta inversión, se estima que la planta puede pasar de producir 19 000 unidades al mes a producir 44 500 unidades. Se aumentan los costos de consumo de energía y de mantenimiento al tener más máquinas en la planta, por lo que se estima un aumento en el costo de producción por unidad a 3.00 USD. Esto representaría ventas mensuales de 89 000 USD, es decir, 1'068 000 USD en ventas anuales, representando un 0.16% del mercado para el año 2025. 
+
+[Análisis completo aquí](https://docs.google.com/spreadsheets/d/1UofpR_d8MAJ8ucfqKUm9TOoAN7rZJr05U88_Q5Jq9SU/edit?usp=sharing)
