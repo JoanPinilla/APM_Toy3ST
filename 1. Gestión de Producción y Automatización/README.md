@@ -22,3 +22,5 @@ Con estos valores, la simulación realizada tras 22 días hábiles con un turno 
 
    1.4 Kpis del proceso  
    1.5 Vsm proceso automatizado
+![image](https://github.com/user-attachments/assets/19b0a140-df9f-4b96-90f7-a73c9fe8cf24)
+
