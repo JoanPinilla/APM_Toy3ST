@@ -5,19 +5,33 @@
 
 Para esta planta se necesitaron varias líneas de producción que se van juntando hasta llegar al producto final, se empieza por una línea donde se cortan los ejes y se ensamblan con lo producido por la inyectora de llantas que produce cuatro llantas en cada moldada luego pasa por un proceso de desbarbado manual para luego ser ensamblado y llevado a las líneas del tanque y el carro, luego estas dos líneas tienen procesos similares donde se generan por inyección dos piezas de la parte inferior de los vehículos se desbarban y se ensamblan con la transmisión para luego ensamblarse con una tercera pieza superior y luego se llevan a empaquetado. Con el helicóptero ya no hay dependencia de la transmisión por lo que se inyectan tres piezas, se desbarban, se ensamblan y empacan. En esta planta las maquinas que se tienen son las inyectoras y las dos bandas que llevan las transmisiones, el resto de los procesos se realizan de forma manual.
 
-![image](https://github.com/user-attachments/assets/9102b2cd-2825-4adb-a8ea-5d246f7ea38a)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9102b2cd-2825-4adb-a8ea-5d246f7ea38a" width="500"/>
+</p>
 
 Con esta configuración, al mes se producen 16.321 juguetes en total donde se llegan a producir 2390 tanques, 3094 carros y 10837 helicópteros, donde se puede ver la primera área de oportunidad de la planta y es la falta de homogeneidad en la planta ya que la dependencia del tanque y del carro a las transmisiones genera un gran retraso en la producción de ambos productos ya que no se generan suficientes transmisiones para realizar una producción constante
 
-![image](https://github.com/user-attachments/assets/223f847d-865b-4284-ab02-bd01aaa7c4bd)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/223f847d-865b-4284-ab02-bd01aaa7c4bd" width="500"/>
+</p>
 
 También se obtuvieron los indicadores de estado de cada una de las estaciones del proceso y lo que primero se logra observar son los grandes tiempos de espera que tienen las estaciones de ensamble ya que ya sea por falta de piezas o por los tiempos de transporte de los operarios al estar caminando de un lugar a otro no se logra hacer un proceso de ensamble del todo eficiente lo que aporta a la falta de homogenización de la planta y hace que se generen bloqueos y colas en la producción como se puede ver en los gráficos.
 
+![image](https://github.com/user-attachments/assets/badc198a-89ad-4c83-ac6a-d036d210bdb5)
 <p align="center">
-  <img src=![image](https://github.com/user-attachments/assets/c9edcd3b-bc1a-4aca-b00c-57dbea04da14)
- width="500"/>
+  <img src="https://github.com/user-attachments/assets/badc198a-89ad-4c83-ac6a-d036d210bdb5" width="500"/>
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4130cb49-d3d2-4252-ac47-727fb6e92b17" width="500"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d514ee36-93fd-4bfc-a61d-e5f4e8ce4a3b" width="500"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9f83a7d0-cb2c-4654-ad74-9332c4a1aefe" width="500"/>
+</p>
+
+
 
 
    1.2 Vsm proceso sin automatizar  
