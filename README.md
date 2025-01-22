@@ -12,9 +12,11 @@ He aprendido sobre la pirámide de automatización y cómo se interrelaciona cad
 ### Johan Díaz
 ### Jhonathan González
 ### Juan David Alonso
+He aprendido sobre la herramiento Tecnomatix plant simulation de siemens y como el uso de esta permite, de manera Macrosomica dar una vista completa a un proceso productivo, tambien he evidenciado la importancia de un analisis correcto de tiempos de operación y confiabilidad con base a datos de la industría u otros competidores permite simular situaciones reales que ocurren para una empresa real, tales como fallos de maquina e incapacidades de trabajadores.
 ## Recomendaciones
 ### Joan Pinilla
 Creo que ir adelantando el proceso de concepción de la planta al mismo tiempo que se ven los temas en clase es muy importante para no acumular trabajo y tener un desarrollo más fluido.
 ### Johan Díaz
 ### Jhonathan González 
 ### Juan David Alonso
+Considero que distribuir adecuadamente el trabajo es importante para asegurar que el flujo de información y trabajo sea homogeneo sobre todo para tareas secuenciales y de común acuerdo
