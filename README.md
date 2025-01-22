@@ -8,11 +8,13 @@ Todos los miembros tuvieron participación en cada tarea y todas las decisiones 
 
 ## Proceso de Aprendizaje
 ### Joan Pinilla
+He aprendido sobre la pirámide de automatización y cómo se interrelaciona cada nivel. Siempre he estado enfocado en los niveles más bajos, pero saber cómo lo que pasa en la planta afecta las decisiones económicas, del mercado, y de logística me ha permitido tener una visión más holística de la industria y de mi papel como ingeniero. Los programas que se han usado hasta la fecha pueden ser complicados de aprender y de instalar, pero también han sido herramientas muy útiles para comprender los procesos industriales.
 ### Johan Díaz
 ### Jhonathan González
 ### Juan David Alonso
 ## Recomendaciones
 ### Joan Pinilla
+Creo que ir adelantando el proceso de concepción de la planta al mismo tiempo que se ven los temas en clase es muy importante para no acumular trabajo y tener un desarrollo más fluido.
 ### Johan Díaz
-### Jhonathan González
+### Jhonathan González 
 ### Juan David Alonso
