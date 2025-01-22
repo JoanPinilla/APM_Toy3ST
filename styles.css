@@ -165,7 +165,7 @@ h2 {
 /* Styling for images */
 #INDEX_MENU img {
     width: 100%;
-    max-width: 300px;
+    max-width: 150px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -216,4 +216,29 @@ footer ul {
 
 footer li {
     white-space: nowrap; /* Prevent text wrapping */
+}
+
+h3, img {
+    display: block; /* Convierte la imagen en un elemento de bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que no exceda el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+#PLANTA-PRE {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 10px; /* Espacio entre imágenes */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0 auto; /* Centrar en el eje horizontal */
+    box-sizing: border-box;
+}
+
+#PLANTA-PRE img {
+    width: 100%; /* Asegura que cada imagen ocupe el espacio completo dentro de su celda */
+    height: auto; /* Mantener proporción de aspecto */
+    object-fit: cover; /* Ajusta la imagen para llenar su contenedor sin deformarla */
+    border: 1px solid #ccc; /* Opcional: borde para separación visual */
 }
