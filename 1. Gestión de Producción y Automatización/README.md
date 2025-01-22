@@ -17,16 +17,18 @@ Con esta configuración, al mes se producen 16.321 juguetes en total donde se ll
 
 También se obtuvieron los indicadores de estado de cada una de las estaciones del proceso y lo que primero se logra observar son los grandes tiempos de espera que tienen las estaciones de ensamble ya que ya sea por falta de piezas o por los tiempos de transporte de los operarios al estar caminando de un lugar a otro no se logra hacer un proceso de ensamble del todo eficiente lo que aporta a la falta de homogenización de la planta y hace que se generen bloqueos y colas en la producción como se puede ver en los gráficos.
 
-![image](https://github.com/user-attachments/assets/badc198a-89ad-4c83-ac6a-d036d210bdb5)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/badc198a-89ad-4c83-ac6a-d036d210bdb5" width="500"/>
 </p>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4130cb49-d3d2-4252-ac47-727fb6e92b17" width="500"/>
 </p>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d514ee36-93fd-4bfc-a61d-e5f4e8ce4a3b" width="500"/>
 </p>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9f83a7d0-cb2c-4654-ad74-9332c4a1aefe" width="500"/>
 </p>
