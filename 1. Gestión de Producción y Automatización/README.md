@@ -1,7 +1,15 @@
 # Gestión de producción y automatización
 
 1. Gestión de producción  
-   1.1 Simulación proceso sin automatizar  
+   1.1 Simulación proceso sin automatizar
+
+Para esta planta se necesitaron varias líneas de producción que se van juntando hasta llegar al producto final, se empieza por una línea donde se cortan los ejes y se ensamblan con lo producido por la inyectora de llantas que produce cuatro llantas en cada moldada luego pasa por un proceso de desbarbado manual para luego ser ensamblado y llevado a las líneas del tanque y el carro, luego estas dos líneas tienen procesos similares donde se generan por inyección dos piezas de la parte inferior de los vehículos se desbarban y se ensamblan con la transmisión para luego ensamblarse con una tercera pieza superior y luego se llevan a empaquetado. Con el helicóptero ya no hay dependencia de la transmisión por lo que se inyectan tres piezas, se desbarban, se ensamblan y empacan. En esta planta las maquinas que se tienen son las inyectoras y las dos bandas que llevan las transmisiones, el resto de los procesos se realizan de forma manual.
+
+![image](https://github.com/user-attachments/assets/9102b2cd-2825-4adb-a8ea-5d246f7ea38a)
+
+
+
+
    1.2 Vsm proceso sin automatizar  
    1.3 Simulación proceso automatizado
 
