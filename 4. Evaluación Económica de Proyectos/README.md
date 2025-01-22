@@ -6,17 +6,17 @@ económicamente viable.
 
 # OFERTA COMERCIAL
 ## ESTADO DE PRODUCCIÓN ACTUAL
-La planta actualmente produce 850 juguetes en cada turno de 8 horas, lo que equivale a 19 000 juguetes al mes. Esto se logra con:
+La planta actualmente produce 741 juguetes en cada turno de 8 horas, lo que equivale a 16 321 juguetes al mes. Esto se logra con:
 * 10 Máquinas de inyección de plástico
 * Dos bandas transportadoras que suman 9.3 m en longitud.
 * 20 operarios cada turno
 * 2 técnicos cada turno
 * 1 máquina de corte para los ejes
 
-El coste de producir cada juguete es de USD 2.50, pero se venden a USD 5.00, por lo que la planta genera ganancias de USD 47 500 mensuales.
+El coste de producir cada juguete es de USD 1.87, pero se venden a USD 5.00, por lo que la planta genera ganancias de USD 37 984 mensuales.
 
 ## NECESIDAD DEL MERCADO
-En 2023, el mercado de juguetes en Colombia se valoró en aproximadamente USD 600 millones. Las ventas de juguetes La empresa Toy3ST tiene una representación del mercado en Colombia del 0.095%, vendiendo USD 570 000.
+En 2023, el mercado de juguetes en Colombia se valoró en aproximadamente USD 600 millones. Las ventas de juguetes La empresa Toy3ST tiene una representación del mercado en Colombia del 0.162%, vendiendo USD 455808 anualmente.
 La empresa tiene planes para expandirse por el mercado suramericano y aumentar su representación en el mercado colombiano. En Colombia, se espera que el mercado de juguetes crezca un 5% para el año 2025, por lo que se ve una oportunidad clara de la empresa para aumentar su representación del mercado. 
 
 ## PROPUESTA DE AUTOMATIZACIÓN DE LA PLANTA
@@ -30,23 +30,8 @@ Para aumentar la eficiencia de los trabajadores en la planta, se propone la inve
 * Adecuaciones físicas en la planta
 * Sistema de aire comprimido para las empacadoras
 
-La inversión comprende lo siguiente:
+[Para ver los rubros de inversión completos](https://docs.google.com/spreadsheets/d/1UofpR_d8MAJ8ucfqKUm9TOoAN7rZJr05U88_Q5Jq9SU/edit?usp=sharing)
 
-| **Concepto**                   | **Costo mínimo (USD)** | **Costo máximo (USD)** | **Costo unitario mínimo (USD)** | **Costo unitario máximo (USD)** |
-|---------------------------------|-------------------------|-------------------------|---------------------------------|---------------------------------|
-| Banda transportadora (50m)      | $85,000                | $125,000               | $1,700                         | $2,500                         |
-| Motores (25 unidades)           | $8,000                 | $16,000                | $320                           | $640                            |
-| Máquinas empaquetadoras (3)     | $26,000                | $40,000                | $8,667                         | $13,333                         |
-| Sistema de aire comprimido      | $6,000                 | $12,000                |                                 |                                 |
-| Robots antropomórficos (2)      | $22,000                | $32,000                | $11,000                        | $16,000                         |
-| Inversión en adecuación de fábrica | $5,000                 | $10,000                |                                 |                                 |
-| **Subtotal inicial**            | $152,000               | $230,000               |                                 |                                 |
-| Transporte desde China          | $7,600                 | $23,000                |                                 |                                 |
-| **Subtotal con transporte**     | $159,600               | $253,000               |                                 |                                 |
-| Impuestos (19%)                 | $30,384                | $48,070                |                                 |                                 |
-| Instalación y puesta en marcha  | $16,000                | $27,000                |                                 |                                 |
-| **Total estimado**              | **$206,984**           | **$328,070**           |                                 |                                 |
-
-Con esta inversión, se estima que la planta puede pasar de producir 19 000 unidades al mes a producir 44 500 unidades. Se aumentan los costos de consumo de energía y de mantenimiento al tener más máquinas en la planta, por lo que se estima un aumento en el costo de producción por unidad a 3.00 USD. Esto representaría ventas mensuales de 89 000 USD, es decir, 1'068 000 USD en ventas anuales, representando un 0.16% del mercado para el año 2025. 
+Con esta inversión, se estima que la planta puede pasar de producir 16 321 unidades al mes a producir 29 771 unidades. Se aumentan los costos de consumo de energía y de mantenimiento al tener más máquinas en la planta, pero como se aumenta la eficiencia de la producción, se disminuye en el costo de producción por unidad a 1.45 USD. Esto representaría ventas mensuales de 148 855 USD, es decir, 1'786 260 USD en ventas anuales, representando estimado del 0.297% del mercado para el año 2025.
 
 [Análisis completo aquí](https://docs.google.com/spreadsheets/d/1UofpR_d8MAJ8ucfqKUm9TOoAN7rZJr05U88_Q5Jq9SU/edit?usp=sharing)
