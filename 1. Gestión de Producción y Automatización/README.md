@@ -14,7 +14,10 @@ Con esta configuración, al mes se producen 16.321 juguetes en total donde se ll
 
 También se obtuvieron los indicadores de estado de cada una de las estaciones del proceso y lo que primero se logra observar son los grandes tiempos de espera que tienen las estaciones de ensamble ya que ya sea por falta de piezas o por los tiempos de transporte de los operarios al estar caminando de un lugar a otro no se logra hacer un proceso de ensamble del todo eficiente lo que aporta a la falta de homogenización de la planta y hace que se generen bloqueos y colas en la producción como se puede ver en los gráficos.
 
-![image](https://github.com/user-attachments/assets/76535519-04c8-4cd2-bb88-520fc0222ee3)
+<p align="center">
+  <img src=![image](https://github.com/user-attachments/assets/c9edcd3b-bc1a-4aca-b00c-57dbea04da14)
+ width="500"/>
+</p>
 
 
    1.2 Vsm proceso sin automatizar  
