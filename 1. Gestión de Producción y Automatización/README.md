@@ -1,7 +1,9 @@
 # Gestión de producción y automatización
 
-1. Gestión de producción  
-   1.1 Simulación proceso sin automatizar
+[ARCHIVOS](https://drive.google.com/drive/folders/1Z3YmBvwmxOz1VESsb6aUUCm6mJurlJfT?usp=sharing)
+
+## 1. Gestión de producción  
+   ### 1.1 Simulación proceso sin automatizar
 
 Para esta planta se necesitaron varias líneas de producción que se van juntando hasta llegar al producto final, se empieza por una línea donde se cortan los ejes y se ensamblan con lo producido por la inyectora de llantas que produce cuatro llantas en cada moldada luego pasa por un proceso de desbarbado manual para luego ser ensamblado y llevado a las líneas del tanque y el carro, luego estas dos líneas tienen procesos similares donde se generan por inyección dos piezas de la parte inferior de los vehículos se desbarban y se ensamblan con la transmisión para luego ensamblarse con una tercera pieza superior y luego se llevan a empaquetado. Con el helicóptero ya no hay dependencia de la transmisión por lo que se inyectan tres piezas, se desbarban, se ensamblan y empacan. En esta planta las maquinas que se tienen son las inyectoras y las dos bandas que llevan las transmisiones, el resto de los procesos se realizan de forma manual.
 
@@ -33,11 +35,8 @@ También se obtuvieron los indicadores de estado de cada una de las estaciones d
   <img src="https://github.com/user-attachments/assets/9f83a7d0-cb2c-4654-ad74-9332c4a1aefe" width="500"/>
 </p>
 
-
-
-
-   1.2 Vsm proceso sin automatizar  
-   1.3 Simulación proceso automatizado
+   ### 1.2 Vsm proceso sin automatizar  
+   ### 1.3 Simulación proceso automatizado
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7121bcd6-3f0d-419a-9645-eb3105cfaafb" width="500"/>
@@ -67,8 +66,8 @@ Con estos valores, la simulación realizada tras 22 días hábiles con un turno 
   <img src="https://github.com/user-attachments/assets/028b5704-c02b-455e-ad89-335a3848362e" width="500"/>
 </p>
 
-   1.4 Kpis del proceso  
-   1.5 Vsm proceso automatizado  
+   ### 1.4 Kpis del proceso  
+   ### 1.5 Vsm proceso automatizado  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/19b0a140-df9f-4b96-90f7-a73c9fe8cf24" width="500"/>
 </p>
