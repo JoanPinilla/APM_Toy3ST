@@ -34,7 +34,8 @@ Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyec
 - **Diagrama GRAFCET - Rutina de bandas de la sección TRANSMISIÓN**  
   En esta sección, el proceso de fabricación involucra solo dos máquinas: una cortadora y una inyectora. A pesar de la diferencia en cantidad de equipos, el principio de operación de las bandas sigue la misma lógica utilizada en la sección de Carros, Tanques y Helicópteros.  
 
-   
+![image](https://github.com/user-attachments/assets/7aec3c3f-4a68-4229-bc94-c9148db2422f)
+
 
   En este caso, cada banda está conectada a su respectiva máquina y se activa cuando el sensor óptico de entrada detecta la primera pieza procesada. La banda permanecerá en funcionamiento hasta que la bandera de bloqueo se active, lo que ocurre cuando la capacidad de la cortadora está completa. Una vez se resuelve la congestión, la rutina reinicia el ciclo y permite la continuidad del proceso de manufactura.  
 
