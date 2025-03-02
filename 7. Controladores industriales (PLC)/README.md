@@ -31,6 +31,21 @@ Aquí podemos evidenciar que aparecen varias rutinas nuevas, haciendo referencia
 
 Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyectoras, se enciende una vez el sensor optico de entrada detecta que hubo una primera pieza, y que estas no se apagan hasta que la bandera de bloqueo de la banda se enciende, lo cual ocurre cuando la capacidad de la estación de desbarbado esta completa, una vez se soluciona la cola, es posible continuar y vuelve a comenzar la subrutina
 
+- **Diagrama GRAFCET - Rutina de bandas de la sección TRANSMISIÓN**  
+  En esta sección, el proceso de fabricación involucra solo dos máquinas: una cortadora y una inyectora. A pesar de la diferencia en cantidad de equipos, el principio de operación de las bandas sigue la misma lógica utilizada en la sección de Carros, Tanques y Helicópteros.  
+
+   
+
+  En este caso, cada banda está conectada a su respectiva máquina y se activa cuando el sensor óptico de entrada detecta la primera pieza procesada. La banda permanecerá en funcionamiento hasta que la bandera de bloqueo se active, lo que ocurre cuando la capacidad de la cortadora está completa. Una vez se resuelve la congestión, la rutina reinicia el ciclo y permite la continuidad del proceso de manufactura.  
+
+- **Diagrama GRAFCET - Rutina de bandas de la sección PACKING**  
+  La sección de Packing opera con tres máquinas empacadoras las cuales son alimentadas desde un ensamble anterior, siguiendo el mismo principio de control de bandas empleado en las otras áreas de producción.  
+
+![image](https://github.com/user-attachments/assets/a551f89d-3579-4fe7-9744-814bc467cb12)
+
+  Aquí, cada empacadora cuenta con su propia banda transportadora, la cual se activa tras la detección de un ensamble depositado en la banda mediante un sensor óptico. Estas bandas continúan funcionando hasta que la capacidad de la empacadora se llena, momento en el que la bandera de bloqueo se activa. Una vez se resuelve la operación de la maquina, el proceso se reinicia.  
+
+
 ### 4. Programación en Ladder
 - **Main Routine**
 
