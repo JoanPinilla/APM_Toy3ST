@@ -48,7 +48,7 @@ Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyec
 
 
 ### 4. Programación en Ladder
-La programación del PLC se realizo por medio de lenguaje LADDER teniendo como suministro los anteriores diagramas GRAFCET, pero como diferencia se añadieron más subrutinas que sin añadir más contenido, ayudan a la organización y permiten una mayor claridad y manejo del programa, el codigo Ladder se presenta a continuación por cada rutina junto con los comentarios sobre cada variable para guiar al lector.
+La programación del PLC se realizo por medio de lenguaje LADDER teniendo como suministro los anteriores diagramas GRAFCET, pero como diferencias, primero se añadieron más subrutinas que sin añadir más contenido, ayudan a la organización y permiten una mayor claridad y manejo del programa; tambien, como suministro para el sistema SCADA se añadieron diferentes contadores y timer que permiten controlar y supervisar la operación en tiempo real. El codigo Ladder se presenta a continuación por cada rutina junto con los comentarios sobre cada variable para guiar al lector.
 
 - **Main Routine**
   
