@@ -51,6 +51,7 @@ Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyec
 La programación del PLC se realizo por medio de lenguaje LADDER teniendo como suministro los anteriores diagramas GRAFCET, pero como diferencia se añadieron más subrutinas que sin añadir más contenido, ayudan a la organización y permiten una mayor claridad y manejo del programa, el codigo Ladder se presenta a continuación por cada rutina junto con los comentarios sobre cada variable para guiar al lector.
 
 - **Main Routine**
+  
 ![image](https://github.com/user-attachments/assets/f0695bfc-d52a-4c75-9af3-bdeb76f5cb0c)
 
 - **Maquinas**
