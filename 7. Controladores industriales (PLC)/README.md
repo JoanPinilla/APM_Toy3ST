@@ -48,7 +48,73 @@ Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyec
 
 
 ### 4. Programación en Ladder
+La programación del PLC se realizo por medio de lenguaje LADDER teniendo como suministro los anteriores diagramas GRAFCET, pero como diferencia se añadieron más subrutinas que sin añadir más contenido, ayudan a la organización y permiten una mayor claridad y manejo del programa, el codigo Ladder se presenta a continuación por cada rutina junto con los comentarios sobre cada variable para guiar al lector.
+
 - **Main Routine**
+![image](https://github.com/user-attachments/assets/f0695bfc-d52a-4c75-9af3-bdeb76f5cb0c)
+
+- **Maquinas**
+
+![image](https://github.com/user-attachments/assets/d0ae4780-ef6f-454c-9b28-4576d24d3490)
+
+- **Bandas**
+![image](https://github.com/user-attachments/assets/6b314875-f11f-464f-a0a9-ce9ee9535ccc)
+
+- **Car**
+
+![image](https://github.com/user-attachments/assets/7adcf21f-eeca-4a2e-9ad6-1972e7d5c31d)
+
+- **Hel**
+  
+![image](https://github.com/user-attachments/assets/8c8e2690-c24b-483d-bb78-de64d573a600)
+
+- **Tank**
+
+![image](https://github.com/user-attachments/assets/6a5f0bf1-6350-482c-8165-bde0458f4a5c)
+
+- **To Robot**
+
+![image](https://github.com/user-attachments/assets/0dc497dd-fdf0-4d59-986e-b711e7444d92)
+![image](https://github.com/user-attachments/assets/42a590b2-58e9-4c02-aeb8-49330eaaedec)
+![image](https://github.com/user-attachments/assets/c9e98029-9043-48f9-a8ae-5c94608bd7af)
+
+- **Trans**  
+
+![image](https://github.com/user-attachments/assets/52ed0280-9aea-400e-9b4f-263cb0ff6c52)
+
+- **Packing**
+  
+![image](https://github.com/user-attachments/assets/99aa0a9e-0c08-4731-b367-ab6da0c726cb)
+![image](https://github.com/user-attachments/assets/20b955a2-41e8-49b9-9ec8-a998c5a3c936)
+
+- **Contadores**
+  
+![image](https://github.com/user-attachments/assets/7ec58223-cd08-42b3-b4b3-fb9af00d0353)
+![image](https://github.com/user-attachments/assets/ff40e0f9-4877-45d5-ac14-0377c5a2c0a8)
+![image](https://github.com/user-attachments/assets/366e3132-cb14-4bc6-ab3d-810074178d91)
+
+- **Bloqueo**
+  
+![image](https://github.com/user-attachments/assets/cada4dfd-4fba-4020-a488-c4f0d0b6895e)
+![image](https://github.com/user-attachments/assets/3daf81a0-7588-4e9d-960a-0aace46aa24b)
+![image](https://github.com/user-attachments/assets/b5aed4cb-7df4-4087-aa45-9578d5f0cde9)
+![image](https://github.com/user-attachments/assets/fc96436c-3ef4-4d7d-a798-ee9e70a2e13b)
+
+- **Robot A**
+
+![image](https://github.com/user-attachments/assets/3daca496-74ad-4d67-86d1-2585c0037be5)
+
+- **Robot B**
+
+![image](https://github.com/user-attachments/assets/94eec001-2e24-46d9-a08a-c3a7658d2a68)
+
+- **Stop Routine**
+
+![image](https://github.com/user-attachments/assets/ce6af0c9-1e14-4b87-ba18-50d4b3d5979e)
+![image](https://github.com/user-attachments/assets/7d41aa0d-a720-4248-853b-9453daa580d5)
+
+- **Master Stop**
+  
+![image](https://github.com/user-attachments/assets/811954f2-6452-411a-be49-f96dbead85d8)
 
 ## Implementación y Simulación
-Se realizarán pruebas en un entorno virtual utilizando TIA Portal y Siemens NX para validar la funcionalidad antes del despliegue físico, asegurando una transición eficiente y sin riesgos operacionales.
