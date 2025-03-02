@@ -59,6 +59,7 @@ La programación del PLC se realizo por medio de lenguaje LADDER teniendo como s
 ![image](https://github.com/user-attachments/assets/d0ae4780-ef6f-454c-9b28-4576d24d3490)
 
 - **Bandas**
+
 ![image](https://github.com/user-attachments/assets/6b314875-f11f-464f-a0a9-ce9ee9535ccc)
 
 - **Car**
