@@ -14,22 +14,22 @@ La codificación en ladder, basada en estos diagramas, se lleva a cabo en Studio
 ### 2. GRAFCET general
 - **Diagrama GRAFCET general** A continuación se presenta el diagrama GRAFCET inicial donde se plasma el flujo de la operación de la planta, aquí no se presentan señales de los sensores ni de los actuadores presentes pero si permite conceptualizar en un primer momento lo que sucede en el nivel de operación.
 
-- ![image](https://github.com/user-attachments/assets/16210334-d53b-4ea7-ae6d-3a9eb4b8931f)
+![image](https://github.com/user-attachments/assets/16210334-d53b-4ea7-ae6d-3a9eb4b8931f)
 
 
 ### 3. Grafcet por rutina y subrutina
 - **Diagrama GRAFCET general detallado** Ahora bien, tomando como suministro el diagrama GRAFCET anteriormente presentado, es posible extender el concepto para visualizar al interior de cada subrutina que es lo que sucede, en el caso de maquinaria, no se hace enfasis puesto que la premisa será que esta sección solo encendera toda la maquinaria, para el caso de las bandas es dentro de ellas donde ocurre la mayor extensión.
   
-- ![image](https://github.com/user-attachments/assets/aded6d88-5f3d-4f0d-9844-0aa4f9cae2fc)
+![image](https://github.com/user-attachments/assets/aded6d88-5f3d-4f0d-9844-0aa4f9cae2fc)
 
 
 Aquí podemos evidenciar que aparecen varias rutinas nuevas, haciendo referencia cada una a cada sección productiva de la planta, de izquierda a derecha tendremos la fabricación de las piezas del carro, tanque, helicoptero y transmisión, posteriormente aparece  la rutina de las bandas que deben alimentar a las estaciones de ensamble del robot donde se desprende tanto el robot de la izquierda o RobotA y el de la derecha RobotB, tambien tenemos finalmente la rutina de las bandas que alimentan las maquinas empacadoras.
 
 - **Diagrama GRAFCET - Rutina de bandas de la sección CARRO, TANQUE Y HELICOPTERO** Por como esta constituida la planta y como desde un principio ha sido la fabricación, la sección de carros, tanques y helicopteros cuentan con la misma cantidad de inyectoras, bandas, estaciones de ensamble y de desbarbado, por lo que a continuación se presenta el diagrama GRAFCET de control de la sección "Carros" que es homoloable para las otras dos secciones anteriormente mensionadas:
 
-- ![image](https://github.com/user-attachments/assets/9616b87b-53e8-40ae-b40c-74de37035c8f)
+![image](https://github.com/user-attachments/assets/9616b87b-53e8-40ae-b40c-74de37035c8f)
 
-- Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyectoras, se enciende una vez el sensor optico de entrada detecta que hubo una primera pieza, y que estas no se apagan hasta que la bandera de bloqueo de la banda se enciende, lo cual ocurre cuando la capacidad de la estación de desbarbado esta completa, una vez se soluciona la cola, es posible continuar y vuelve a comenzar la subrutina
+Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyectoras, se enciende una vez el sensor optico de entrada detecta que hubo una primera pieza, y que estas no se apagan hasta que la bandera de bloqueo de la banda se enciende, lo cual ocurre cuando la capacidad de la estación de desbarbado esta completa, una vez se soluciona la cola, es posible continuar y vuelve a comenzar la subrutina
 
 ### 4. Programación en Ladder
 - **Main Routine**
