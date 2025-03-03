@@ -66,7 +66,7 @@ Adicionalmente, para crear una simulación adecuada de la planta, se tuvieron en
 Con estos valores, la simulación realizada tras 22 días hábiles con un turno diario de 8 horas arrojó los siguientes resultados: se logró una homogenización de producción del 87%, con un aumento del 252% en la producción de tanques, del 233% en automóviles y un crecimiento adicional del 2% en helicópteros. Este representa un importante primer avance.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/028b5704-c02b-455e-ad89-335a3848362e" width="500"/>
+  <img src="https://github.com/user-attachments/assets/8fe0cbd2-b4c0-4843-83e2-a842964fa33d" width="500"/>
 </p>
 
    ### 1.4 Kpis del proceso  
