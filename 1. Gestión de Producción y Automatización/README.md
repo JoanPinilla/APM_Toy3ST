@@ -89,5 +89,11 @@ donde se puede ver que ahora la planta tiene un buen desempeño y precision en g
   <img src="https://github.com/user-attachments/assets/19b0a140-df9f-4b96-90f7-a73c9fe8cf24" width="500"/>
 </p>
 
+   ### 1.6 Model canvas
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8ce31e8-6377-4afd-af71-fe7ffed7aad1" width="500"/>
+</p>
+
 
 
