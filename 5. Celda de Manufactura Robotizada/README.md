@@ -61,5 +61,6 @@ Medidas de seguridad:
 Realizamos un análisis de riesgos por medio del método HRN donde se evaluaron los riesgos asociados a la celda robótica y se le dieron solución a los mismos y se enumeraron los componentes necesarios para cada una de las medidas de prevención de riesgo:
 
 ![image](https://github.com/user-attachments/assets/4cf28000-342f-459d-9ccd-7d85f123a190)
+![image](https://github.com/user-attachments/assets/07b5f497-76ca-4169-8b71-4c28ab5b67de)
 
   
