@@ -23,9 +23,9 @@ Robot ABB IRB 1200: robot de 5kg de fuerza con un alcance de 0.9m
 
 ![image](https://github.com/user-attachments/assets/fdcff357-de3e-4365-9ae8-2944c8ee3501)
 
-SCHUNK - Single Gripper JGP-P 80-1 ABB kit: griper neumático con 10mm de recorrido y una fuerza de hasta 500 N.
+RG2 – FLEXIBLE 2 FINGER ROBOT GRIPPER WITH WIDE STROKE: griper neumático con 110mm de recorrido y una fuerza de hasta 500 N.
 
-![image](https://github.com/user-attachments/assets/2427d458-c62a-4c07-8ed5-fc865e8e8b3e)
+![image](https://github.com/user-attachments/assets/83908065-f533-4bf4-a1d6-9217b961c489)
 
 Cilindro neumático DSNU-S con recorrido de 20mm a 8 bar y una fuerza de 100N
 
