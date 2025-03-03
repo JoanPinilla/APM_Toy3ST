@@ -76,6 +76,14 @@ Con estos valores, la simulación realizada tras 22 días hábiles con un turno 
 </p>
 
    ### 1.4 Kpis del proceso  
+   Se realizo el calculo de los KPIs para el proceso automatizado poniendo como produccion ideal 12672 juguetes de cada tipo como se muestra a continuacion:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d2af5666-a635-41f7-a3fd-c91631d2d60f" width="500"/>
+</p>
+
+donde se puede ver que ahora la planta tiene un buen desempeño y precision en general y un OEE de 0.65
+
    ### 1.5 Vsm proceso automatizado  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/19b0a140-df9f-4b96-90f7-a73c9fe8cf24" width="500"/>
