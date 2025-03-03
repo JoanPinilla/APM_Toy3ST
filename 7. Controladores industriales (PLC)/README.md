@@ -39,6 +39,14 @@ Aquí podemos ver que cada una de las bandas, conectadas a cada una de las inyec
 
   En este caso, cada banda está conectada a su respectiva máquina y se activa cuando el sensor óptico de entrada detecta la primera pieza procesada. La banda permanecerá en funcionamiento hasta que la bandera de bloqueo se active, lo que ocurre cuando la capacidad de la cortadora está completa. Una vez se resuelve la congestión, la rutina reinicia el ciclo y permite la continuidad del proceso de manufactura.  
 
+- **Diagrama GRAFCET - Rutina de bandas de la sección ROBOTS**
+
+La siguiente información presenta el diagrama GRAFCET del ensamble central realizado por robots, este par de robots es alimentado por 4 bandas en pares de 2, que deben ser controladas de manera individual, estas bandas se encienden al percibir por su sensor de entrada una pieza resultado de un ensamble o estación de desbarbado previo, y una vez llevan la pieza hasta las inmediaciones del robot, la banda debe ser apagada para que el Robot pueda tomar la pieza.
+  
+![image](https://github.com/user-attachments/assets/4417bb62-2f28-42d6-b8e5-18dfc5c0d143)
+
+Una vez ambos sensores de salida de la banda son activados para cada robot, la rutina del robot debe ser activada; dicha rutina acaba dejando la pieza en una tercera banda, la cual, su sensor de entrada envia la señal al robot para que vuelva a HOME, y de esta manera este listo nuevamente para repetir el ciclo.
+
 - **Diagrama GRAFCET - Rutina de bandas de la sección PACKING**  
   La sección de Packing opera con tres máquinas empacadoras las cuales son alimentadas desde un ensamble anterior, siguiendo el mismo principio de control de bandas empleado en las otras áreas de producción.  
 
