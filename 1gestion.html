@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Toy3ST - Ingeniería</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+    <link rel="icon" href="favicon.ico"> <!-- Optional: Add a favicon -->
+</head>
+<body>
+    <header>
+        <h1>Toy3ST</h1>
+        <img src="Toy3ST LOGO.png" alt="Logo de la marca">
+        <nav id="NAVBAR">
+            <h2><a href="index.html">INICIO</a></h2>
+            <h2><a href="engineering.html">MÓDULOS</a></h2>
+            <h2><a href="learning.html">APRENDIZAJE</a></h2>
+            <h2><a href="https://github.com/JoanPinilla/APM_Toy3ST">REPOSITORIO</a></h2>
+        </nav>
+    </header>
+
+    <main id="main_engineering">
+        <h2 id="GESTION">Gestión de Producción y Automatización</h2>
+        <!-- <li>Análisis con el software de simulación de planta en donde se incorporen aspectos de fallas de equipos, disponibilidad, calidad, set-up, tiempos de producción, balance de líneas, colas, determinación de OEE, etc.</li>
+        <li>Consideración de aspectos de pre-automatización, diagramas VSM pre y pos, aplicación de estrategias de preautomatización.</li>
+        <li>Propuesta de cómo llevar información de la planta a un sistema MES.</li> -->
+
+        <h3>PLANTA PRE-AUTOMATIZADA</h3>
+        <p>Para esta planta se necesitaron varias líneas de producción que se van juntando hasta llegar al producto final, se empieza por una línea donde se cortan los ejes y se ensamblan con lo producido por la inyectora de llantas que produce cuatro llantas en cada moldada luego pasa por un proceso de desbarbado manual para luego ser ensamblado y llevado a las líneas del tanque y el carro, luego estas dos líneas tienen procesos similares donde se generan por inyección dos piezas de la parte inferior de los vehículos se desbarban y se ensamblan con la transmisión para luego ensamblarse con una tercera pieza superior y luego se llevan a empaquetado. Con el helicóptero ya no hay dependencia de la transmisión por lo que se inyectan tres piezas, se desbarban, se ensamblan y empacan. En esta planta las maquinas que se tienen son las inyectoras y las dos bandas que llevan las transmisiones, el resto de los procesos se realizan de forma manual.</p>
+        <img src="0. Página Web/PLANTA PRE/1. PLANTA-PRE.jpg" alt="MODELO 3D">
+        <p>Con esta configuración, al mes se producen 16.321 juguetes en total donde se llegan a producir 2390 tanques, 3094 carros y 10837 helicópteros, donde se puede ver la primera área de oportunidad de la planta y es la falta de homogeneidad en la planta ya que la dependencia del tanque y del carro a las transmisiones genera un gran retraso en la producción de ambos productos ya que no se generan suficientes transmisiones para realizar una producción constante</p>
+        <img src="0. Página Web/PLANTA PRE/2. PRODUCCIÓN-PRE.jpg" alt="GRÁFICA DE BARRAS">
+        <p>También se obtuvieron los indicadores de estado de cada una de las estaciones del proceso y lo que primero se logra observar son los grandes tiempos de espera que tienen las estaciones de ensamble ya que ya sea por falta de piezas o por los tiempos de transporte de los operarios al estar caminando de un lugar a otro no se logra hacer un proceso de ensamble del todo eficiente lo que aporta a la falta de homogenización de la planta y hace que se generen bloqueos y colas en la producción como se puede ver en los gráficos.</p>
+        <figure id="PLANTA-PRE">
+            <img src="0. Página Web/PLANTA PRE/CHART1.jpg" alt="CHART1">
+            <img src="0. Página Web/PLANTA PRE/CHART2.jpg" alt="CHART2">
+            <img src="0. Página Web/PLANTA PRE/CHART3.jpg" alt="CHART3">
+            <img src="0. Página Web/PLANTA PRE/CHART4.jpg" alt="CHART4">
+        </figure>
+        
+        <h3>PLANTA AUTOMATIZADA</h3>
+        <img src="0. Página Web/PLANTA AUTO/PLANTA AUTO 1.jpg" alt="MODELO 3D">
+        <p>
+            Para el planteamiento final de la planta, que básicamente se trataba de una re imaginación de todo el proceso inicial se tuvieron en cuenta varios principios ordenadores, el primero de ellos era que se buscaba mantener la maquinaria de inyección y corte original así como el número de empleados originales de la planta pero esta vez destinándolos a puestos que si generan valor al producto y por medio de la inserción de maquinaria altamente tecnificada y automatización aumentar la producción de tal manera que pudiera la empresa ser más presente y fuerte en el mercado a la vez que reducen los precios de venta para hacerlos más competitivos.
+        </p>
+
+        <img src="0. Página Web/PLANTA AUTO/PLANTA AUTO 2.jpg" alt="MODELO 3D">
+
+        <p>
+            Siguiendo el diseño de una celda de manufactura tipo Peine, se buscó crear una línea central de trabajo y producción a la que, desde los lados, se añadieran piezas o procesos de valor en los puntos de ensamblaje. Esto permitió integrar nuevas estaciones de ensamble que no existían en la planta original y que descongestionan y aceleran, además de incorporar un robot antropomórfico encargado del ensamblaje final de dos de nuestros vehículos, el carro y el tanque, que previamente eran los más rezagados en producción.
+            Adicionalmente, para poder crear una simulación adecuada de la planta se tuvieron en cuenta varios tiempos, por parte de la maquinaria los tiempos de fallo se asociaron al tiempo necesario para reparar un fallo que se fijo en 2 horas mientras que se fijo un tiempo de una hora de establecimiento de moldes de inyección, home del robot y precarga de la maquina de corte, por parte del personal, un tiempo de fallo se considero una falla por incapacidad de un turno laboral completo de 8 horas y el tiempo de establecimiento se estableció en 20 minutos para que los trabajadores puedan ubicarse y prepararse a trabajar al comienzo del turno; estos fallos, se generaran de manera aleatoria durante el tiempo se simulación, fijado en un mes de trabajo o 22 días hábiles, con una probabilidad del 95-97% para la maquinaría y del 90% para los trabajadores.
+        </p>
+
+        <img src="0. Página Web/PLANTA AUTO/3.jpg" alt="MODELO 3D">
+        <img src="0. Página Web/PLANTA AUTO/4.jpg" alt="MODELO 3D">
+        <img src="0. Página Web/PLANTA AUTO/5.jpg" alt="MODELO 3D">
+        <p>
+            Con estos valores, la simulación realizada tras 22 días hábiles con un turno diario de 8 horas arrojó los siguientes resultados: se logró una homogenización de producción del 87%, con un aumento del 252% en la producción de tanques, del 233% en automóviles y un crecimiento adicional del 2% en helicópteros. Este representa un importante primer avance.
+        </p>
+
+        <img src="0. Página Web/PLANTA AUTO/6.jpg" alt="MODELO 3D">
+        <div id="INDEX_MENU">
+            <h2>NUESTRO PROCESO</h2>
+            <div>
+              <img src="0. Página Web/NAV MENU/1gestion.png" alt="Gestión de Producción">
+              <h3><a href="1gestion.html">Gestión de Producción y Automatización</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/2industry40.png" alt="Industria 4.0">
+              <h3><a href="2industria4.html">Industria 4.0 en la Automatización</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/3plan.png" alt="Planeación del Proyecto">
+              <h3><a href="3planeacion.html">Planeación del Proyecto</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/4finance.png" alt="Evaluación Económica">
+              <h3><a href="4economica.html">Evaluación Económica de Proyectos</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/5celda.png" alt="Celda de Manufactura Robotizada">
+              <h3><a href="5celda.html">Celda de Manufactura Robotizada</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/6digital.png" alt="Digital Factory">
+              <h3><a href="6digital.html">Digital Factory</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/7plc.png" alt="Controladores industriales (PLC)">
+              <h3><a href="7plc.html">Controladores industriales (PLC)</a></h3>
+            </div>
+            <div>
+              <img src="0. Página Web/NAV MENU/8scada.png" alt="SCADA">
+              <h3><a href="8scada.html">SCADA</a></h3>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+        <h3>EQUIPO Toy3ST</h3>
+        <ul>
+            <li>Joan Pinilla - jpinillal@unal.edu.co</li>
+            <li>Johan Díaz - jodiazro@unal.edu.co</li>    
+            <li>Jhonathan González - jhgonzalez@unal.edu.co</li>
+            <li>Juan David Alonso - jalonso@unal.edu.co</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to an external JavaScript file -->
+</body>
+</html>
