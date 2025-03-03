@@ -19,20 +19,20 @@ Selección de componentes:
 Partiendo del hecho de que el robot tendrá la tarea de ensamblar piezas realizara dos operaciones principales, una de ellas es realizar un pick and place donde tomara dos piezas distintas de dos bandas y la otra será hacer el acople de dos piezas sin necesidad de tornillos ni soldaduras (ya que las piezas se realizaron para evitar este tipo de juntas por seguridad del usuario final) entregando un juguete ya ensamblado y listo para su empaque. En todo este proceso se demora 25 segundos recibiendo dos piezas y entregando un juguete completo.
 
 Lista de componentes 
-•	Robot ABB IRB 1200: robot de 5kg de fuerza con un alcance de 0.9m
+Robot ABB IRB 1200: robot de 5kg de fuerza con un alcance de 0.9m
 ![image](https://github.com/user-attachments/assets/fdcff357-de3e-4365-9ae8-2944c8ee3501)
-•	SCHUNK - Single Gripper JGP-P 80-1 ABB kit: griper neumático con 10mm de recorrido y una fuerza de hasta 500 N.
+SCHUNK - Single Gripper JGP-P 80-1 ABB kit: griper neumático con 10mm de recorrido y una fuerza de hasta 500 N.
 ![image](https://github.com/user-attachments/assets/2427d458-c62a-4c07-8ed5-fc865e8e8b3e)
-•	Cilindro neumático DSNU-S con recorrido de 20mm a 8 bar y una fuerza de 100N
+Cilindro neumático DSNU-S con recorrido de 20mm a 8 bar y una fuerza de 100N
 ![image](https://github.com/user-attachments/assets/e9eaffc5-5f55-42a3-bc00-e8599207892e)
  
-•	Compresor 24 Litros 115psi Karson: con una capacidad de flujo de 182L/m y 1.5 HP.
+Compresor 24 Litros 115psi Karson: con una capacidad de flujo de 182L/m y 1.5 HP.
  ![image](https://github.com/user-attachments/assets/e076fc68-ba78-4050-983a-e1a1199195d1)
 
-•	Manguera de poliuretano de 4mm
-•	Válvula Solenoide 3/2 FESTO VUVS
-•	electroválvula 5/2
-•	bandas de PVC de 433 mm de ancho y con motor de 1HP.
+Manguera de poliuretano de 4mm
+Válvula Solenoide 3/2 FESTO VUVS
+electroválvula 5/2
+bandas de PVC de 433 mm de ancho y con motor de 1HP.
 Diseño de la celda
 En esta celda lo que se busca es que un robot tome una pieza de la banda de pieza inferior que viene por delante de el la coloque sobre una prensa neumática, recoja la pieza superior, acople las dos piezas, la prensa se suelte y lleve el juguete completo a la banda de empaque
 
