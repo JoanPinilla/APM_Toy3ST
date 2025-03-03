@@ -72,3 +72,8 @@ Con estos valores, la simulación realizada tras 22 días hábiles con un turno 
   <img src="https://github.com/user-attachments/assets/19b0a140-df9f-4b96-90f7-a73c9fe8cf24" width="500"/>
 </p>
 
+   ### 1.6 Model canvas
+
+   ![image](https://github.com/user-attachments/assets/dd2bd80a-c31a-4ab3-86c8-de1e58cc6d39)
+
+
