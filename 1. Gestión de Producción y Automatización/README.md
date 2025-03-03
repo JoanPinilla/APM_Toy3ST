@@ -35,7 +35,13 @@ También se obtuvieron los indicadores de estado de cada una de las estaciones d
   <img src="https://github.com/user-attachments/assets/9f83a7d0-cb2c-4654-ad74-9332c4a1aefe" width="500"/>
 </p>
 
-   ### 1.2 Vsm proceso sin automatizar  
+   ### 1.2 Vsm proceso sin automatizar 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4c52b24c-a669-49c9-9a47-7e59db45968e" width="500"/>
+</p>
+
+   
    ### 1.3 Simulación proceso automatizado
 
 
