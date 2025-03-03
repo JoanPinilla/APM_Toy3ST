@@ -37,9 +37,11 @@ También se obtuvieron los indicadores de estado de cada una de las estaciones d
 
    ### 1.2 Vsm proceso sin automatizar  
    ### 1.3 Simulación proceso automatizado
+   ![image](https://github.com/user-attachments/assets/ae5338f0-b76f-4f32-bf54-06917d45ff37)
+
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7121bcd6-3f0d-419a-9645-eb3105cfaafb" width="500"/>
+  <img src="https://github.com/user-attachments/assets/ae5338f0-b76f-4f32-bf54-06917d45ff37" width="500"/>
 </p>
 Para el planteamiento final de la planta, que básicamente se trataba de una reimaginación de todo el proceso inicial, se tuvieron en cuenta varios principios ordenadores. El primero de ellos era que se buscaba mantener la maquinaria de inyección y corte original, así como el número de empleados originales de la planta, pero esta vez destinándolos a puestos que sí generaran valor al producto. A través de la inserción de maquinaria altamente tecnificada y automatización, se buscaba aumentar la producción de tal manera que la empresa pudiera ser más presente y fuerte en el mercado, a la vez que reducían los precios de venta para hacerlos más competitivos.
 
