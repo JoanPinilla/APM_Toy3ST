@@ -44,8 +44,10 @@ También se obtuvieron los indicadores de estado de cada una de las estaciones d
 </p>
 Para el planteamiento final de la planta, que básicamente se trataba de una reimaginación de todo el proceso inicial, se tuvieron en cuenta varios principios ordenadores. El primero de ellos era que se buscaba mantener la maquinaria de inyección y corte original, así como el número de empleados originales de la planta, pero esta vez destinándolos a puestos que sí generaran valor al producto. A través de la inserción de maquinaria altamente tecnificada y automatización, se buscaba aumentar la producción de tal manera que la empresa pudiera ser más presente y fuerte en el mercado, a la vez que reducían los precios de venta para hacerlos más competitivos.
 
+
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8831169a-aa1a-4514-bd67-372ca7764c50" width="500"/>
+  <img src="https://github.com/user-attachments/assets/a504dfea-fb81-42e5-91e2-e190ec478837" width="500"/>
 </p>
 
 Siguiendo el diseño de una celda de manufactura tipo Peine, se buscó crear una línea central de trabajo y producción a la que, desde los lados, se añadieran piezas o procesos de valor en los puntos de ensamblaje. Esto permitió integrar nuevas estaciones de ensamble que no existían en la planta original y que descongestionan y aceleran el proceso, además de incorporar un robot antropomórfico encargado del ensamblaje final de dos de nuestros vehículos: el carro y el tanque, que previamente eran los más rezagados en producción.  
