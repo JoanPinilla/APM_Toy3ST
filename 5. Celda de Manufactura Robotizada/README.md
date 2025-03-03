@@ -53,6 +53,8 @@ Para esto se colocan los robots en medio de las 3 bandas con la prensa delante c
 Se coloca de tal manera que el robot tenga alcance de las tres bandas, especialmente la de la parte inferior que es la mas lejana por lo cual se opto por un robot con un alcance de 0.9m y un peso de 5Kg para que a pesar del bajo peso de los productos se tenga un factor de seguridad en las posiciones más lejanas donde los momentos son más altos, donde al final la distribución quedo de la siguiente manera donde las dos celdas robóticas quedaron dentro de la misma celda de contención de 3.45m x 2.36m.
 
 ![image](https://github.com/user-attachments/assets/077fe763-b5da-4ccf-a811-92673cb970ae)
+![image](https://github.com/user-attachments/assets/3ccb9cc6-001b-4794-a8ec-7db6eeeb2906)
+
 
 
 Medidas de seguridad:
