@@ -28,7 +28,7 @@ La conexión entre NX y LogixEmulate sirve para que el PLC simulado se encargue 
 En este caso, Ignition es el software que sirve de SCADA y de puente para las comunicaciones OPC DA y OPC UA de Studio5000 y RobotStudio respectivamente. Las características de este sistema se discuten más a detalle [aquí](https://github.com/JoanPinilla/APM_Toy3ST/tree/main/8.%20SCADA#readme).
 
 ## Nivel MES
-Como valor agregado al proyecto, se realizó un acercamiento a las funciones de un sistema MES a través de NodeRED y Google Sheets. Esta conexión se logró a través de OPC DA con NodeRED y la hoja de datos se sincroniza con a través de internet. Nuevamente, se habla del sistema MES con más detalle [aquí.]
+Como valor agregado al proyecto, se realizó un acercamiento a las funciones de un sistema MES a través de NodeRED y Google Sheets. Esta conexión se logró a través de OPC DA con NodeRED y la hoja de datos se sincroniza con a través de internet. Nuevamente, se habla del sistema MES con más detalle [aquí.](https://github.com/JoanPinilla/APM_Toy3ST/tree/main/8.%20SCADA#sistema-mes)
 
 
 # Industria 4.0
