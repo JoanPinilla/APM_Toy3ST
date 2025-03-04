@@ -13,7 +13,7 @@ En toda la planta se usan sensores ópticos para hacer control de las bandas y o
 La mayoría de los actuadores de la planta son las bandas transportadoras. Estas permiten optimizar el proceso de transporte y reducir el tiempo improductivo en el ciclo del producto.
 Además de las bandas, están el par de celdas robóticas que consisten en un robot antropomórfico de 6 ejes, una pistón neumático que funciona como prensa y 3 bandas transportadores. Se discute sobre esta celda en más detalle [aquí](https://github.com/JoanPinilla/APM_Toy3ST/blob/main/5.%20Celda%20de%20Manufactura%20Robotizada/README.md)
 
-# Acrquitectura de control
+# Arquitectura de control
 Se muestra la arquitectura de control de todo el proyecto en relación a la pirámide de automatización.
 
 ![image](https://github.com/user-attachments/assets/a197e8f8-1542-4461-8bdf-f4128b83b834)
