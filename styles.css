@@ -169,6 +169,7 @@ h2 {
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
+    filter: invert(100%)
 }
 
 /* Styling for the links */
