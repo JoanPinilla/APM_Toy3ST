@@ -13,7 +13,7 @@ En toda la planta se usan sensores ópticos para hacer control de las bandas y o
 La mayoría de los actuadores de la planta son las bandas transportadoras. Estas permiten optimizar el proceso de transporte y reducir el tiempo improductivo en el ciclo del producto.
 Además de las bandas, están el par de celdas robóticas que consisten en un robot antropomórfico de 6 ejes, una pistón neumático que funciona como prensa y 3 bandas transportadores. Se discute sobre esta celda en más detalle [aquí](https://github.com/JoanPinilla/APM_Toy3ST/blob/main/5.%20Celda%20de%20Manufactura%20Robotizada/README.md)
 
-# Acrquitectura de control
+# Arquitectura de control
 Se muestra la arquitectura de control de todo el proyecto en relación a la pirámide de automatización.
 
 ![image](https://github.com/user-attachments/assets/a197e8f8-1542-4461-8bdf-f4128b83b834)
@@ -28,7 +28,7 @@ La conexión entre NX y LogixEmulate sirve para que el PLC simulado se encargue 
 En este caso, Ignition es el software que sirve de SCADA y de puente para las comunicaciones OPC DA y OPC UA de Studio5000 y RobotStudio respectivamente. Las características de este sistema se discuten más a detalle [aquí](https://github.com/JoanPinilla/APM_Toy3ST/tree/main/8.%20SCADA#readme).
 
 ## Nivel MES
-Como valor agregado al proyecto, se realizó un acercamiento a las funciones de un sistema MES a través de NodeRED y Google Sheets. Esta conexión se logró a través de OPC DA con NodeRED y la hoja de datos se sincroniza con a través de internet. Nuevamente, se habla del sistema MES con más detalle [aquí.]
+Como valor agregado al proyecto, se realizó un acercamiento a las funciones de un sistema MES a través de NodeRED y Google Sheets. Esta conexión se logró a través de OPC DA con NodeRED y la hoja de datos se sincroniza con a través de internet. Nuevamente, se habla del sistema MES con más detalle [aquí.](https://github.com/JoanPinilla/APM_Toy3ST/tree/main/8.%20SCADA#sistema-mes)
 
 
 # Industria 4.0
