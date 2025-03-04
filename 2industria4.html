@@ -1,88 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Toy3ST - Ingeniería</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
-    <link rel="icon" href="favicon.ico"> <!-- Optional: Add a favicon -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Toy3ST - Ingeniería</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+  <link rel="icon" href="favicon.ico"> <!-- Optional: Add a favicon -->
 </head>
+
 <body>
-    <header>
-        <h1>Toy3ST</h1>
-        <img src="Toy3ST LOGO.png" alt="Logo de la marca">
-        <nav id="NAVBAR">
-            <h2><a href="index.html">INICIO</a></h2>
-            <h2><a href="engineering.html">MÓDULOS</a></h2>
-            <h2><a href="learning.html">APRENDIZAJE</a></h2>
-            <h2><a href="https://github.com/JoanPinilla/APM_Toy3ST">REPOSITORIO</a></h2>
-        </nav>
-    </header>
+  <header>
+    <h1>Toy3ST</h1>
+    <img src="Toy3ST LOGO.png" alt="Logo de la marca">
+    <nav id="NAVBAR">
+      <h2><a href="index.html">INICIO</a></h2>
+      <h2><a href="engineering.html">MÓDULOS</a></h2>
+      <h2><a href="learning.html">APRENDIZAJE</a></h2>
+      <h2><a href="https://github.com/JoanPinilla/APM_Toy3ST">REPOSITORIO</a></h2>
+    </nav>
+  </header>
 
-    <main id="main_engineering">
+  <main id="main_engineering">
+    <div>
+      <h3>Sensores y actuadores</h3>
+      <p>A continuación se puede ver un diagrama simplificado de la fábrica donde a cada elemente se le asigna un TAG específico. De esta manera se puede identificar en la programación del Ladder y de NX. Los tags y la explicación de cómo se formaron y a qué corresponden se puede ver <a href="https://github.com/JoanPinilla/APM_Toy3ST/blob/main/7.%20Controladores%20industriales%20(PLC)/TAGS.md">aquí.</a></p>
+      <img src="https://private-user-images.githubusercontent.com/118155154/418837246-032d87ee-057c-4483-bdbe-7f462e2c6f1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEwNzQ0ODgsIm5iZiI6MTc0MTA3NDE4OCwicGF0aCI6Ii8xMTgxNTUxNTQvNDE4ODM3MjQ2LTAzMmQ4N2VlLTA1N2MtNDQ4My1iZGJlLTdmNDYyZTJjNmYxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMwNFQwNzQzMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZWYzMjQ5MDZjNDFhYzVmMzk0YjlkZjUxZTk5ZGQ5YjQ1ZGJmNDY5ZGE1ZTMwMGNhM2EzMThkMGYzZWYwYWNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.n-jhsyQynMR02rsAO2nscxUUSfDng-HrM1_y3Us-agU">
+      <h4>Sensores</h4>
+      <p>En toda la planta se usan sensores ópticos para hacer control de las bandas y otros actuadores, así como para llevar un registro de todas las piezas que se producen en las máquinas y las estaciones.</p>
+      <h4>Actuadores</h4>
+      <p>La mayoría de los actuadores de la planta son las bandas transportadoras. Estas permiten optimizar el proceso de transporte y reducir el tiempo improductivo en el ciclo del producto. Además de las bandas, están el par de celdas robóticas que consisten en un robot antropomórfico de 6 ejes, una pistón neumático que funciona como prensa y 3 bandas transportadores. Se discute sobre esta celda en más detalle <a href="5celda.html">aquí.</a></p>
+      <h3>Arquitectura de control</h3>
+      <p>Se muestra la arquitectura de control de todo el proyecto en relación a la pirámide de automatización.</p>
+      <img src="https://private-user-images.githubusercontent.com/118155154/418837589-a197e8f8-1542-4461-8bdf-f4128b83b834.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEwNzQ0ODgsIm5iZiI6MTc0MTA3NDE4OCwicGF0aCI6Ii8xMTgxNTUxNTQvNDE4ODM3NTg5LWExOTdlOGY4LTE1NDItNDQ2MS04YmRmLWY0MTI4YjgzYjgzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMwNFQwNzQzMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMjM0NzY5ZTg2ZGJmYWVlYTNiZGUyZGE1OTRmOTQ2YzFiNDI1YWIwNmQxNzcxNmRkYTNhYjFkNGFkODViNjE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rMRslEjRt0-UVqb08jBZ0WAGwiYHjgbcM4qggDefvrc">
+      <h4>Nivel de campo</h4>
+      <p>En el nivel de campo se encuentran los dos softwares de comunicación usados: Siemens NX y RobotStudio. El primero se encarga de la simulación de toda la planta y se comunica con LogixEmulate y RobotStudio a través de una conexión OPC DA y OPC UA respectivamente.</p>
+      <h4>Nivel de control</h4>
+      <p>La conexión entre NX y LogixEmulate sirve para que el PLC simulado se encargue del control de todos los actuadores y sensores de la simulación. La conexión de OPC UA entre LogixEmulate y RobotStudio sirve para que el robot simulado en RobotStudio le envíe las posiciones angulares de sus joints y para dar y recibir señales. Las posiciones angulares del robot se sincronizan con un ensamble en NX y las señales pueden ser de entrada para hacer que el robot empiece la rutina; o de salida, como por ejemplo una rutina finalizada o la señal para abrir y cerrar la prensa.</p>
+      <h4>Nivel SCADA</h4>
+      <p>En este caso, Ignition es el software que sirve de SCADA y de puente para las comunicaciones OPC DA y OPC UA de Studio5000 y RobotStudio respectivamente. Las características de este sistema se discuten más a detalle <a href=""></a></p>
+      <h4>Nivel MES</h4>
+      <p>Como valor agregado al proyecto, se realizó un acercamiento a las funciones de un sistema MES a través de NodeRED y Google Sheets. Esta conexión se logró a través de OPC DA con NodeRED y la hoja de datos se sincroniza con a través de internet. Nuevamente, se habla del sistema MES con más detalle <a href="8scada.html">aquí.</a></p>
+      <h3>Industria 4.0</h3>
+      <p>Las tecnologías y filosofías de industria 4.0 aplicadas a este proyecto fueron:</p>
+      <ul>
+        <li>Conectar completamente la pirámide de automatización: a través de las conexiones OPC UA y DA, se logó la completa integración del nivel de campo, de control, de supervisión e incluso de un acercamiento a un sistema MES.</li>
+        <li>Gemelo digital: Hacer la validación digital de la planta tiene muchas ventajas a la hora de la puesta en marcha y permite hacer simulaciones de escenarios de producción para plantear diferentes estrategias</li>
+        <li>Métricas en tiempo real: Gracias a la integración entre Studio5000 e Ignition, se logró hacer el conteo de todas las piezas producidas. Esto con el objetivo de enviar infromación al sistema MES sobre la cantidad de material usado en tiempo real y estimar el rendimiento de la planta a través de sus unidades producidas.</li>
+      </ul>
+    </div>
 
-        <h2 id="INDUSTRIA 4.0">Industria 4.0 en la Automatización</h2>
-        <ul>
-            <li>Diagramas de instrumentación (identificación de sensores y actuadores) de las diversas etapas del proceso.</li>
-            <li>Imagen de la arquitectura de control y descripción de las comunicaciones utilizadas para el proyecto, identificando protocolos, canales, niveles de la pirámide de automatización donde son utilizadas.</li>
-            <li>Determinación de las diferentes tecnologías de industria 4.0 participantes en su planteamiento, su finalidad e impactos. <strong>[Gemelo digital (modelo ciberfísico) y el uso de IIoT.]</strong> Relación con transformación digital industrial.</li>
-        </ul>
-    
-        <div id="INDEX_MENU">
-            <h2>NUESTRO PROCESO</h2>
-            <div>
-              <img src="0. Página Web/NAV MENU/1gestion.png" alt="Gestión de Producción">
-              <h3><a href="1gestion.html">Gestión de Producción y Automatización</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/2industry40.png" alt="Industria 4.0">
-              <h3><a href="2industria4.html">Industria 4.0 en la Automatización</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/3plan.png" alt="Planeación del Proyecto">
-              <h3><a href="3planeacion.html">Planeación del Proyecto</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/4finance.png" alt="Evaluación Económica">
-              <h3><a href="4economica.html">Evaluación Económica de Proyectos</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/5celda.png" alt="Celda de Manufactura Robotizada">
-              <h3><a href="5celda.html">Celda de Manufactura Robotizada</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/6digital.png" alt="Digital Factory">
-              <h3><a href="6digital.html">Digital Factory</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/7plc.png" alt="Controladores industriales (PLC)">
-              <h3><a href="7plc.html">Controladores industriales (PLC)</a></h3>
-            </div>
-            <div>
-              <img src="0. Página Web/NAV MENU/8scada.png" alt="SCADA">
-              <h3><a href="8scada.html">SCADA</a></h3>
-            </div>
-          </div>
-    </main>
+    <div id="INDEX_MENU">
+      <h2>NUESTRO PROCESO</h2>
+      <div>
+        <img src="0. Página Web/NAV MENU/1gestion.png" alt="Gestión de Producción">
+        <h3><a href="1gestion.html">Gestión de Producción y Automatización</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/2industry40.png" alt="Industria 4.0">
+        <h3><a href="2industria4.html">Industria 4.0 en la Automatización</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/3plan.png" alt="Planeación del Proyecto">
+        <h3><a href="3planeacion.html">Planeación del Proyecto</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/4finance.png" alt="Evaluación Económica">
+        <h3><a href="4economica.html">Evaluación Económica de Proyectos</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/5celda.png" alt="Celda de Manufactura Robotizada">
+        <h3><a href="5celda.html">Celda de Manufactura Robotizada</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/6digital.png" alt="Digital Factory">
+        <h3><a href="6digital.html">Digital Factory</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/7plc.png" alt="Controladores industriales (PLC)">
+        <h3><a href="7plc.html">Controladores industriales (PLC)</a></h3>
+      </div>
+      <div>
+        <img src="0. Página Web/NAV MENU/8scada.png" alt="SCADA">
+        <h3><a href="8scada.html">SCADA</a></h3>
+      </div>
+    </div>
+  </main>
 
-    <footer>
-        <h3>EQUIPO Toy3ST</h3>
-        <ul>
-            <li>Joan Pinilla - jpinillal@unal.edu.co</li>
-            <li>Johan Díaz - jodiazro@unal.edu.co</li>    
-            <li>Jhonathan González - jhgonzalez@unal.edu.co</li>
-            <li>Juan David Alonso - jalonso@unal.edu.co</li>
-        </ul>
-        <a href="https://www.flaticon.com/free-icons/production" title="production icons">Production icons created by Icon home - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/plc" title="plc icons">Plc icons created by Three musketeers - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/scada" title="scada icons">Scada icons created by varianicon - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/digitalization" title="digitalization icons">Digitalization icons created by Design Circle - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/manufacturing" title="manufacturing icons">Manufacturing icons created by Uniconlabs - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/finances" title="finances icons">Finances icons created by surang - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/planning" title="planning icons">Planning icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/industry-40" title="industry 4.0 icons">Industry 4.0 icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/production" title="production icons">Production icons created by Icon home - Flaticon</a>
-    </footer>
+  <footer>
+    <h3>EQUIPO Toy3ST</h3>
+    <ul>
+      <li>Joan Pinilla - jpinillal@unal.edu.co</li>
+      <li>Johan Díaz - jodiazro@unal.edu.co</li>
+      <li>Jhonathan González - jhgonzalez@unal.edu.co</li>
+      <li>Juan David Alonso - jalonso@unal.edu.co</li>
+    </ul>
+    <a href="https://www.flaticon.com/free-icons/production" title="production icons">Production icons created by Icon
+      home - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/plc" title="plc icons">Plc icons created by Three musketeers -
+      Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/scada" title="scada icons">Scada icons created by varianicon -
+      Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/digitalization" title="digitalization icons">Digitalization icons
+      created by Design Circle - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/manufacturing" title="manufacturing icons">Manufacturing icons created
+      by Uniconlabs - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/finances" title="finances icons">Finances icons created by surang -
+      Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/planning" title="planning icons">Planning icons created by Freepik -
+      Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/industry-40" title="industry 4.0 icons">Industry 4.0 icons created by
+      Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/production" title="production icons">Production icons created by Icon
+      home - Flaticon</a>
+  </footer>
 </body>
+
 </html>
