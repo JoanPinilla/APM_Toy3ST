@@ -126,5 +126,3 @@ La programación del PLC se realizo por medio de lenguaje LADDER teniendo como s
 - **Master Stop**
   
 ![image](https://github.com/user-attachments/assets/811954f2-6452-411a-be49-f96dbead85d8)
-
-## Implementación y Simulación
