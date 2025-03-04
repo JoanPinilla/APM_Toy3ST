@@ -36,10 +36,15 @@ Compresor 24 Litros 115psi Karson: con una capacidad de flujo de 182L/m y 1.5 HP
 ![image](https://github.com/user-attachments/assets/e076fc68-ba78-4050-983a-e1a1199195d1)
 
 Manguera de poliuretano de 4mm
+
 Válvula Solenoide 3/2 FESTO VUVS
+
 electroválvula 5/2
+
 bandas de PVC de 433 mm de ancho y con motor de 1HP.
+
 Diseño de la celda
+
 En esta celda lo que se busca es que un robot tome una pieza de la banda de pieza inferior que viene por delante de el la coloque sobre una prensa neumática, recoja la pieza superior, acople las dos piezas, la prensa se suelte y lleve el juguete completo a la banda de empaque
 
 ![image](https://github.com/user-attachments/assets/605255db-4bfd-46b1-87a2-2102355b4d49)
