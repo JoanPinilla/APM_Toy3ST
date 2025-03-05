@@ -1,5 +1,7 @@
 # APM_Toy3ST
 
+[VIDEO DE YOUTUBE](https://youtu.be/HwKdL9COIeU)
+
 ## Gestión de Proyecto
 Durante las últimas semanas se realizaron reuniones semanales donde se asignaron tareas a cada integrante. En las reuniones también se discutía sobre los avances de cada uno para facilitar el trabajo de todos en la medida de lo posible. Siempre se mantuvo una comunicación constante y asertiva entre todos los miembros del grupo
 
